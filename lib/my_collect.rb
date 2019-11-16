@@ -9,7 +9,7 @@ def my_collect(array)
 end
 
 my_collect(["ruby", "javascript", "python", "objective-c"]) do |caps|
-  caps.split(" ").upcase
+  caps.split(" ").case
   caps
 end
 
