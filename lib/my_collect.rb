@@ -8,4 +8,4 @@ def my_collect(array)
     array
 end
 
-my_collect([""])
+my_collect([])
