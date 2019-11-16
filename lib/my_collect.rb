@@ -12,6 +12,6 @@ my_collect(["ruby", "javascript", "python", "objective-c"]) do |caps|
   caps.split(" ").upcasae 
 end
 
-my_collect(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]) d0 |first_name|
+my_collect(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]) do |first_name|
   first_name.split(" ").first 
 end 
