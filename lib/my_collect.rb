@@ -9,9 +9,11 @@ def my_collect(array)
 end
 
 my_collect(["ruby", "javascript", "python", "objective-c"]) do |caps|
-  caps.split(" ").upcasae 
+  caps.split(" ").upcase
+  caps
 end
 
 my_collect(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]) do |first_name|
   first_name.split(" ").first 
+  first_name
 end 
