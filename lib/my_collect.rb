@@ -8,4 +8,8 @@ def my_collect(array)
     array
 end
 
+my_collect(["ruby", "javascript", "python", "objective-c"]) do |caps|
+  caps.split(" ").upcasae 
+end
+
 my_collect([])
